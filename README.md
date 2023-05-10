@@ -1,6 +1,4 @@
-
-DJ4E Samples
-============
+# DJ4E Samples
 
 This is a set of Django projects that provide free sample code to
 support the www.dj4e.com web site.
@@ -24,15 +22,14 @@ out into some folder:
     python3 manage.py runscript many_load
 
 These samples may be updated from time to time so you might want to get updates
-using `git pull`.  Also if there are bugs, you are welcome to submit
+using `git pull`. Also if there are bugs, you are welcome to submit
 a Pull Request on github.
 
 All of the documentation material is copyright CC-BY 3.0 and the code is copyright MIT
-by whomever wrote the code or documentation.  You are welcome to use this in any way you see
+by whomever wrote the code or documentation. You are welcome to use this in any way you see
 fit and paste code from this repo into your applications.
 
-Running Locally
----------------
+## Running Locally
 
 If you have Django installed on your local computer you can test any of the sample
 applications by going into the folder and starting the server:
@@ -42,8 +39,7 @@ applications by going into the folder and starting the server:
 
 And visit `http://localhost:8000`.
 
-Running on PythonAnywhere
--------------------------
+## Running on PythonAnywhere
 
 Once you have checked out the code under `django_projects`, and
 ran the migrations and load scripts,
@@ -66,6 +62,7 @@ Use this as your `WGSI configuration file`:
     application = StaticFilesHandler(get_wsgi_application())
 
 You can edit these files and settings in the Web tab to switch between
-your various projects on PythonAnywhere.  Make sure to reload under the Web tab after
+your various projects on PythonAnywhere. Make sure to reload under the Web tab after
 every file or configuration change.
 
+Testing...
